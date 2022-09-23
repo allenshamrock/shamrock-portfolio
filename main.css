@@ -1,0 +1,162 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+} 
+
+
+p,a{
+    line-height: 30px;
+    font-size: 20px;
+}
+/* navigation section */
+h1,h4{
+    color: #2299aa;
+}
+.navigation{
+    width: 100%;
+    position: relative;
+    min-height: 60px;
+    z-index: 1000;
+
+}
+
+#navbarNavAltMarkup{
+    justify-content: flex-end;
+}
+
+.navbar-brand{
+    color: #2299aa !important;
+    font-size: 2rem;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #333333;
+    font-weight: 600;
+    padding-left: 1.2rem !important;
+    padding-right: 1.2rem !important;
+}
+
+/* buttons */
+
+.btn{
+    background-color: #2299aa !important;
+    border-radius: 2rem;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    color: white !important;
+    border: none;
+    
+}
+ .btn :hover{
+    color: crimson;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+ }
+
+/* banner */
+
+.banner{
+    background-color: #eae7dc;
+}
+
+/* icons */
+.icon{
+    color: white;
+    background-color: #2299aa;
+    height: 4.5rem;
+    max-width: 4.5rem;
+    width: 100% !important;
+    margin: auto !important;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-size:30%;
+    border-radius: 50%;
+}
+
+.img-fluid{
+    object-fit: contain !important;
+    height:250px !important;
+}
+
+#my-works{
+    background-color: #eae7dc;
+}
+
+.img-3{
+object-fit:contain;
+height: 650px;
+width: 100%;
+}
+
+/* banner profile */
+.img-2{
+    object-fit: contain;
+    height: 550px !important;
+    width: 100% !important;;
+}
+
+.card{
+    background-color: #cfccc2d8;
+}
+
+#contact a{
+    text-decoration: none;
+
+}
+
+#contact{
+    background-color: #eae7dc;
+}
+
+/* paragrapghs */
+
+p{
+    max-width: 50rem;
+}
+
+.two{
+    margin: auto;
+}
+
+.card img{
+    height: 250px !important;
+    width: 100%;
+    object-fit: contain !important;
+}
+
+/* footer */
+.section .container{
+    font-style: italic;
+}
+
+ .icons i{
+   margin: .5rem;
+}
+
+/* .icons i{
+    color: white;
+    background-color: #2299aa;
+    height: 1rem;
+    max-width: 1rem;
+    width: 100% !important;
+    margin: auto !important;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-size:30%;
+    border-radius: 50%;
+} */
+
+ /* #col-2{
+   transition: ease-in 3s;  
+} 
+
+col-2 :hover{
+    transform:scale(1) ;
+} */
+
